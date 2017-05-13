@@ -116,6 +116,17 @@ brew cask install --appdir="/Applications" evernote
 
 #Remove comment to install LaTeX distribution MacTeX
 #brew cask install --appdir="/Applications" mactex
+brew install mas
+mas install 1176895641 ## spark mail app
+mas install 784801555 ## onenote
+brew cask install --appdir="/Applications" sourcetree
+mas install 410628904 ## wunderlist
+brew cask install appcleaner
+brew cask install tunnelblick
+brew tap homebrew/science
+brew install Caskroom/cask/xquartz
+brew install r
+brew cask install rstudio
 
 # Install Docker, which requires virtualbox
 #brew install docker
