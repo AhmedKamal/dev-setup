@@ -46,8 +46,8 @@ echo "------------------------------"
 echo "Setting up py2-data virtual environment."
 
 # Create a Python2 data environment
-mkvirtualenv py2-data
-workon py2-data
+# mkvirtualenv py2-data
+# workon py2-data
 
 # Install Python data modules
 #pip install numpy
@@ -73,8 +73,8 @@ workon py2-data
 #echo "Setting up py3-data virtual environment."
 
 # Create a Python3 data environment
-#mkvirtualenv --python=/usr/local/bin/python3 py3-data
-#workon py3-data
+mkvirtualenv --python=/usr/local/bin/python3 py3-data
+workon py3-data
 
 # Install Python data modules
 # pip install numpy
@@ -106,5 +106,5 @@ workon py2-data
 
 echo "------------------------------"
 echo "Script completed."
-echo "Usage: workon py2-data for Python2"
-#echo "Usage: workon py3-data for Python3"
+# echo "Usage: workon py2-data for Python2"
+echo "Usage: workon py3-data for Python3"
