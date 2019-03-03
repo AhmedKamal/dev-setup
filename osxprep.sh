@@ -18,3 +18,6 @@ echo "------------------------------"
 echo "Installing Xcode Command Line Tools."
 # Install Xcode command line tools
 xcode-select --install
+
+sudo chown -R $(whoami) /usr/local/Cellar
+sudo chown -R $(whoami) /usr/local/etc /usr/local/opt /usr/local/sbin /usr/local/share
