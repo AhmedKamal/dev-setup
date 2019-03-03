@@ -97,8 +97,10 @@ brew cask install --appdir="~/Applications" iterm2
 brew cask install --appdir="~/Applications" java
 
 # Development tool casks
+brew cask install --appdir="/Applications" intellij-idea-ce
+brew cask install --appdir="/Applications" pycharm
 brew cask install --appdir="/Applications" sublime-text
-brew cask install --appdir="/Applications" atom
+# brew cask install --appdir="/Applications" atom
 # brew cask install --appdir="/Applications" virtualbox
 # brew cask install --appdir="/Applications" vagrant
 brew cask install --appdir="/Applications" macdown
@@ -108,7 +110,7 @@ brew cask install --appdir="/Applications" google-chrome
 # brew cask install --appdir="/Applications" firefox
 brew cask install --appdir="/Applications" skype
 brew cask install --appdir="/Applications" slack
-# brew cask install --appdir="/Applications" dropbox
+brew cask install --appdir="/Applications" dropbox
 brew cask install --appdir="/Applications" evernote
 # brew cask install --appdir="/Applications" 1password
 #brew cask install --appdir="/Applications" gimp
@@ -117,19 +119,25 @@ brew cask install --appdir="/Applications" evernote
 #Remove comment to install LaTeX distribution MacTeX
 #brew cask install --appdir="/Applications" mactex
 brew install mas
-mas install 1176895641 ## spark mail app
 mas install 784801555 ## onenote
 brew cask install --appdir="/Applications" sourcetree
-mas install 410628904 ## wunderlist
-brew cask install appcleaner
-brew cask install tunnelblick
+brew cask install --appdir="/Applications" vlc
+brew cask install --appdir="/Applications" bettertouchtool
+brew cask install --appdir="/Applications" spectacle
+brew cask install --appdir="/Applications" spotify
+brew cask install --appdir="/Applications" spotifree
+
+brew cask install --appdir="/Applications" appcleaner
+brew cask install --appdir="/Applications" rstudio
+brew cask install --appdir="/Applications" zoomus
+brew cask install --appdir="/Applications" viber
+
 brew tap homebrew/science
 brew install Caskroom/cask/xquartz
 brew install r
-brew cask install rstudio
 
 # Install Docker, which requires virtualbox
-#brew install docker
+brew install docker
 #brew install boot2docker
 
 # Install developer friendly quick look plugins; see https://github.com/sindresorhus/quick-look-plugins
