@@ -52,7 +52,8 @@ workon venv
 
 pip install boto
 pip install awscli
-pip install s3cmd  # Python 2 only
+#pip install s3cmd  # Python 2 only
+pip install aws-mfa
 
 #Uncomment if you want to hook up the aws cli autocomplete for Python 3
 EXTRA_PATH=~/.extra
