@@ -7,10 +7,9 @@
 sudo -K
 
 echo "------------------------------"
-echo "Setting up pip."
+echo "Installing Python 3 including Pip"
 
-# Install pip
-easy_install pip
+brew install python3
 
 ###############################################################################
 # Virtual Enviroments                                                         #
