@@ -141,6 +141,7 @@ brew install docker
 #brew install boot2docker
 
 brew install youtube-dl
+brew install libav # encoding lib for sound
 # Install developer friendly quick look plugins; see https://github.com/sindresorhus/quick-look-plugins
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
 
